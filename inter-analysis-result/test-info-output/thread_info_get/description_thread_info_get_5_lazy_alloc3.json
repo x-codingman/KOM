@@ -1,0 +1,9 @@
+{
+    "name": "lazy_alloc3",
+    "size": 4,
+    "writable location 0": {
+        "offset_in_mo": 0,
+        "width": 32,
+        "constraints": []
+    }
+}

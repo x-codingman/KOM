@@ -1,0 +1,8 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 156. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 149. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 142. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 135. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 128. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 121. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 114. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_info_get.c: line 107. desired value: 0, desired address 4026478592-4026478592

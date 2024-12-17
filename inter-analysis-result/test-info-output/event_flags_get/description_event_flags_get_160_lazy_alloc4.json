@@ -1,0 +1,567 @@
+{
+    "name": "lazy_alloc4",
+    "size": 432,
+    "writable location 0": {
+        "offset_in_mo": 192,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 1": {
+        "offset_in_mo": 224,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 2": {
+        "offset_in_mo": 240,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 3": {
+        "offset_in_mo": 232,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 4": {
+        "offset_in_mo": 200,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 5": {
+        "offset_in_mo": 424,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 6": {
+        "offset_in_mo": 208,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 7": {
+        "offset_in_mo": 216,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 8": {
+        "offset_in_mo": 92,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 9": {
+        "offset_in_mo": 100,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 10": {
+        "offset_in_mo": 136,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 11": {
+        "offset_in_mo": 168,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 0
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc4",
+                    "index": 184,
+                    "width": 64
+                }
+            }
+        ]
+    },
+    "writable location 12": {
+        "offset_in_mo": 176,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 0
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc4",
+                    "index": 184,
+                    "width": 64
+                }
+            }
+        ]
+    },
+    "writable location 13": {
+        "offset_in_mo": 184,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 0
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc4",
+                    "index": 184,
+                    "width": 64
+                }
+            }
+        ]
+    },
+    "writable location 14": {
+        "offset_in_mo": 100,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 0
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc4",
+                    "index": 184,
+                    "width": 64
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,433 @@
+{
+    "name": "lazy_alloc1",
+    "size": 96,
+    "writable location 0": {
+        "offset_in_mo": 16,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 1146504270
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 0,
+                    "width": 64
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 64,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 32,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 32,
+                    "value": 1
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 40,
+                    "width": 32
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 17,
+                        "type_name": "And",
+                        "left": {
+                            "type": 18,
+                            "type_name": "Or",
+                            "left": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "lazy_alloc1",
+                                "index": 16,
+                                "width": 64
+                            },
+                            "right": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "flags_to_set",
+                                "index": 0,
+                                "width": 64
+                            }
+                        },
+                        "right": {
+                            "type": 5,
+                            "type_name": "Concat",
+                            "name": "lazy_alloc1087",
+                            "index": 224,
+                            "width": 64
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 1": {
+        "offset_in_mo": 32,
+        "width": 64,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 1146504270
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 0,
+                    "width": 64
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 64,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 32,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 32,
+                    "value": 1
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 40,
+                    "width": 32
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 17,
+                        "type_name": "And",
+                        "left": {
+                            "type": 18,
+                            "type_name": "Or",
+                            "left": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "lazy_alloc1",
+                                "index": 16,
+                                "width": 64
+                            },
+                            "right": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "flags_to_set",
+                                "index": 0,
+                                "width": 64
+                            }
+                        },
+                        "right": {
+                            "type": 5,
+                            "type_name": "Concat",
+                            "name": "lazy_alloc1087",
+                            "index": 224,
+                            "width": 64
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "writable location 2": {
+        "offset_in_mo": 40,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 1146504270
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 0,
+                    "width": 64
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 64,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 32,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 32,
+                    "value": 1
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 40,
+                    "width": 32
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 17,
+                        "type_name": "And",
+                        "left": {
+                            "type": 18,
+                            "type_name": "Or",
+                            "left": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "lazy_alloc1",
+                                "index": 16,
+                                "width": 64
+                            },
+                            "right": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "flags_to_set",
+                                "index": 0,
+                                "width": 64
+                            }
+                        },
+                        "right": {
+                            "type": 5,
+                            "type_name": "Concat",
+                            "name": "lazy_alloc1087",
+                            "index": 224,
+                            "width": 64
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

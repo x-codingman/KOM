@@ -1,0 +1,2 @@
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_reset.c: line 122. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_reset.c: line 151. desired value: 0, desired address 4026478592-4026478592

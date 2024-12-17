@@ -1,0 +1,2 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_preempt_check.c: line 94. 
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_prioritize.c: line 122. desired value: 0, desired address 4026478592-4026478592

@@ -1,0 +1,13 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/txe_queue_create.c: line 128. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_preempt_check.c: line 94. 
+KLEE: Error: write vulnerabilityon file runtime/Freestanding/memset.c: line 15. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 93. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 96. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 106. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 107. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 111. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 112. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 116. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 117. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 132. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_queue_create.c: line 133. desired value: 0, desired address 4026478592-4026478592

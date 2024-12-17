@@ -1,0 +1,39 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 103. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 144. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_priority_change.c: line 147. 
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 197. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_suspend.c: line 196. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 210. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 211. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 226. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 227. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 127. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 404. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_resume.c: line 512. 
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 175. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 203. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 204. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_resume.c: line 231. 
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_timer_system_deactivate.c: line 115. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_timer_system_deactivate.c: line 116. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_timer_system_deactivate.c: line 131. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_timer_system_deactivate.c: line 123. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_timer_system_deactivate.c: line 126. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_timer_system_deactivate.c: line 105. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 219. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_priority_change.c: line 220. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_suspend.c: line 215. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_suspend.c: line 216. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 392.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 393.
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 394. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_system_resume.c: line 395. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 392.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 393.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 392.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 393.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 392.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 393.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 392.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 393.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_thread_system_resume.c: line 393.

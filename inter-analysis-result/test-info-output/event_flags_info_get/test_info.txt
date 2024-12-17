@@ -1,0 +1,5 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_event_flags_info_get.c: line 136. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_event_flags_info_get.c: line 129. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_event_flags_info_get.c: line 122. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_event_flags_info_get.c: line 114. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_event_flags_info_get.c: line 106. desired value: 0, desired address 4026478592-4026478592

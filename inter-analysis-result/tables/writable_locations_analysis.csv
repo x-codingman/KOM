@@ -1,0 +1,9 @@
+,writable_count,controllable_count,no_constraint,fully_controllable_count,min_offset,max_offset,min_gap,max_gap
+BLOCK,7,2,4,2,8,64,8,56
+MUTEX,6,1,1,1,8,72,4,64
+QUEUE,12,3,6,3,8,112,4,104
+SEMAPHORE,5,1,1,1,8,72,8,64
+TIMER,6,4,5,4,8,96,8,88
+EVENT,5,1,1,1,8,88,8,80
+THREAD,4,2,0,0,48,388,8,340
+BYTE,6,4,6,4,8,56,8,48

@@ -1,0 +1,7 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_byte_release.c: line 164. 
+KLEE: Error: unresolved address test on file threadx/common/src/tx_byte_release.c: line 179.
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_byte_release.c: line 198. 
+KLEE: Error: unresolved address test on file threadx/common/src/tx_byte_release.c: line 199.
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_byte_release.c: line 203. 
+KLEE: Error: unresolved address test on file threadx/common/src/tx_byte_release.c: line 204.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_byte_pool_search.c: line 127.

@@ -1,0 +1,4 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_delete.c: line 128. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_delete.c: line 146. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_delete.c: line 147. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_delete.c: line 150. 

@@ -1,0 +1,38 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 155. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_preempt_check.c: line 94. 
+KLEE: Error: write vulnerabilityon file runtime/Freestanding/memset.c: line 15. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 358. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 359. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 363. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 364. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 365. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 366. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 367. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 368. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 369. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 370. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 371. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 372. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 399. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 401. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 407. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 408. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 433. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 445.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 446.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 447.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 448.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 449.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 450.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 451.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 452.
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 455. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 455.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 458.
+KLEE: Error: unresolved address test on file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 465.
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 468. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 469. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 475. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 492. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 501. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common_modules/module_manager/src/txm_module_manager_thread_create.c: line 502. desired value: 0, desired address 4026478592-4026478592

@@ -1,0 +1,5 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_preemption_change.c: line 169. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_preemption_change.c: line 172. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_preemption_change.c: line 185. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_preemption_change.c: line 197. 
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_thread_preemption_change.c: line 179. desired value: 0, desired address 4026478592-4026478592

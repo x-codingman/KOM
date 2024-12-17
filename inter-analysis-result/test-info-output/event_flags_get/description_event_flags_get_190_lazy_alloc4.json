@@ -1,0 +1,37 @@
+{
+    "name": "lazy_alloc4",
+    "size": 432,
+    "writable location 0": {
+        "offset_in_mo": 100,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc4",
+                        "index": 264,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    }
+}

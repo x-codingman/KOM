@@ -1,0 +1,144 @@
+{
+    "name": "lazy_alloc1",
+    "size": 432,
+    "writable location 0": {
+        "offset_in_mo": 104,
+        "width": 32,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 1414025796
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 0,
+                    "width": 64
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 25,
+                    "type_name": "Ult",
+                    "left": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 384,
+                        "width": 32
+                    },
+                    "right": {
+                        "type": 6,
+                        "type_name": "Extract",
+                        "src": {
+                            "type": 7,
+                            "type_name": "ZExt",
+                            "src": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "new_threshold",
+                                "index": 0,
+                                "width": 32
+                            },
+                            "width": 64
+                        },
+                        "offset": 0,
+                        "width": 32
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 384,
+                        "width": 32
+                    },
+                    "right": {
+                        "type": 6,
+                        "type_name": "Extract",
+                        "src": {
+                            "type": 7,
+                            "type_name": "ZExt",
+                            "src": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "new_threshold",
+                                "index": 0,
+                                "width": 32
+                            },
+                            "width": 64
+                        },
+                        "offset": 0,
+                        "width": 32
+                    }
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 25,
+                    "type_name": "Ult",
+                    "left": {
+                        "type": 6,
+                        "type_name": "Extract",
+                        "src": {
+                            "type": 7,
+                            "type_name": "ZExt",
+                            "src": {
+                                "type": 5,
+                                "type_name": "Concat",
+                                "name": "new_threshold",
+                                "index": 0,
+                                "width": 32
+                            },
+                            "width": 64
+                        },
+                        "offset": 0,
+                        "width": 32
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 392,
+                        "width": 32
+                    }
+                }
+            }
+        ]
+    }
+}

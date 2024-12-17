@@ -1,0 +1,2 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_byte_allocate.c: line 166. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_byte_pool_search.c: line 127. desired value: 0, desired address 4026478592-4026478592

@@ -1,0 +1,25 @@
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_semaphore_get.c: line 113. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_semaphore_get.c: line 182. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_semaphore_get.c: line 183. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_semaphore_get.c: line 187. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_suspend.c: line 401. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 129. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 130. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 135. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 139. 
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: write vulnerabilityon file threadx/common/src/tx_semaphore_get.c: line 170. desired value: 0, desired address 4026478592-4026478592
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 158.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 158.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 158.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 158.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 158.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_timer_system_activate.c: line 149.
