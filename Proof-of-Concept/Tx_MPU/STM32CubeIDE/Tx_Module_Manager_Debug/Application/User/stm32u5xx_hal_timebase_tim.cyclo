@@ -1,0 +1,3 @@
+/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/stm32u5xx_hal_timebase_tim.c:41:19:HAL_InitTick	4
+/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/stm32u5xx_hal_timebase_tim.c:106:6:HAL_SuspendTick	1
+/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/stm32u5xx_hal_timebase_tim.c:118:6:HAL_ResumeTick	1
