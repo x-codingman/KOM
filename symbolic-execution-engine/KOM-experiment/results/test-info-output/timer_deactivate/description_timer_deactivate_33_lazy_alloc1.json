@@ -1,0 +1,134 @@
+{
+    "name": "lazy_alloc1",
+    "size": 104,
+    "writable location 0": {
+        "offset_in_mo": 16,
+        "width": 64,
+        "value_controllable": false,
+        "can_value_be_forged_id": false,
+        "constraints": [
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 1096042829
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 0,
+                    "width": 64
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 23,
+                    "type_name": "Eq",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 0
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 64,
+                        "width": 64
+                    }
+                }
+            },
+            {
+                "type": 26,
+                "type_name": "Ule",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 97756404386520
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 64,
+                    "width": 64
+                }
+            },
+            {
+                "type": 25,
+                "type_name": "Ult",
+                "left": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 64,
+                    "width": 64
+                },
+                "right": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 97756404387120
+                }
+            },
+            {
+                "type": 26,
+                "type_name": "Ule",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 64,
+                    "value": 97756404386664
+                },
+                "right": {
+                    "type": 5,
+                    "type_name": "Concat",
+                    "name": "lazy_alloc1",
+                    "index": 64,
+                    "width": 64
+                }
+            },
+            {
+                "type": 23,
+                "type_name": "Eq",
+                "left": {
+                    "type": 0,
+                    "type_name": "Constant",
+                    "width": 1,
+                    "value": 0
+                },
+                "right": {
+                    "type": 25,
+                    "type_name": "Ult",
+                    "left": {
+                        "type": 0,
+                        "type_name": "Constant",
+                        "width": 64,
+                        "value": 32
+                    },
+                    "right": {
+                        "type": 5,
+                        "type_name": "Concat",
+                        "name": "lazy_alloc1",
+                        "index": 16,
+                        "width": 64
+                    }
+                }
+            }
+        ]
+    }
+}

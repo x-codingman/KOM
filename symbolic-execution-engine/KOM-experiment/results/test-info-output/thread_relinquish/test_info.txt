@@ -1,0 +1,2 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_relinquish.c: line 142. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_relinquish.c: line 126. 

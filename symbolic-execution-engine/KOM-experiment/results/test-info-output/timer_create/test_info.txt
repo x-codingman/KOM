@@ -1,0 +1,6 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/txe_timer_create.c: line 131. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_preempt_check.c: line 94. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 129. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 130. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 135. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 139. 

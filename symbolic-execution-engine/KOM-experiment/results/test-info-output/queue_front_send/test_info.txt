@@ -1,0 +1,18 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_resume.c: line 512. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_system_suspend.c: line 401. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 129. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 130. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 135. 
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_timer_system_activate.c: line 139. 
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
+KLEE: Error: unresolved address test on file threadx/common/src/tx_queue_front_send.c: line 167.
