@@ -50,7 +50,7 @@ COPY --chown=klee:klee . /tmp/klee_src/
 USER klee
 WORKDIR /home/klee
 # Build and set klee user to be owner
-RUN /tmp/klee_src/scripts/build/build.sh --debug --install-system-deps klee && pip3 install flask wllvm && \
+RUN /tmp/klee_src/scripts/build/build.sh --debug --install-system-deps klee && pip3 install flask wllvm openpyxl pandas && \
     sudo rm -rf /var/lib/apt/lists/*
 
 

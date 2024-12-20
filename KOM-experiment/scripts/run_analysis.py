@@ -42,7 +42,7 @@ def run_all_scripts(scripts):
 
 if __name__ == "__main__":
     # Install necessary packages before running the scripts
-    install_requirements()
+    #install_requirements()
     
     # Run all the scripts in the list
     run_all_scripts(scripts)
