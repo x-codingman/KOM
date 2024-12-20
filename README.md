@@ -1,27 +1,56 @@
-KLEE Symbolic Virtual Machine
-=============================
+We provide the source code for the symbolic execution engine. It is recommended to build the engine using Docker for easier setup and environment management. Please note that the Docker container will consume approximately 30GB of memory to store the experiment results.
 
-[![Build Status](https://github.com/klee/klee/workflows/CI/badge.svg)](https://github.com/klee/klee/actions?query=workflow%3ACI)
-[![Build Status](https://api.cirrus-ci.com/github/klee/klee.svg)](https://cirrus-ci.com/github/klee/klee)
-[![Coverage](https://codecov.io/gh/klee/klee/branch/master/graph/badge.svg)](https://codecov.io/gh/klee/klee)
+```
+docker build -t klee/klee .
+```
 
-`KLEE` is a symbolic virtual machine built on top of the LLVM compiler
-infrastructure. Currently, there are two primary components:
+This will build a docker image `"klee"` which contains all the necessary materials to reproduce our experiments.
 
-  1. The core symbolic virtual machine engine; this is responsible for
-     executing LLVM bitcode modules with support for symbolic
-     values. This is comprised of the code in lib/.
+To launch the container:
 
-  2. A POSIX/Linux emulation layer oriented towards supporting uClibc,
-     with additional support for making parts of the operating system
-     environment symbolic.
+```
+./run_docker.sh
+```
 
-Additionally, there is a simple library for replaying computed inputs
-on native code (for closed programs). There is also a more complicated
-infrastructure for replaying the inputs generated for the POSIX/Linux
-emulation layer, which handles running native programs in an
-environment that matches a computed test input, including setting up
-files, pipes, environment variables, and passing command line
-arguments.
+In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](TODO) Execute the following command to use it:
 
-For further information, see the [webpage](http://klee.github.io/).
+```
+docker rmi perry:latest
+docker pull ray999/perry
+docker tag ray999/perry perry:latest
+cd perry
+./run_docker.sh
+```
+
+To build KLEE, run the following commands:
+
+```
+cd /home/klee/klee_src
+mkdir build
+cmake \
+  -DCMAKE_CXX_FLAGS_DEBUG="-g" \
+  -DCMAKE_C_FLAGS_DEBUG="-g" \
+  -DCMAKE_CXX_FLAGS_RELEASE="-O3 -DNDEBUG" \
+  -DCMAKE_C_FLAGS_RELEASE="-O3 -DNDEBUG" \
+  -DCMAKE_CXX_FLAGS_RELWITHDEBINFO="-O2 -g -DNDEBUG" \
+  -DCMAKE_C_FLAGS_RELWITHDEBINFO="-O2 -g -DNDEBUG" \
+  -DENABLE_SOLVER_STP=ON \
+  -DENABLE_POSIX_RUNTIME=ON \
+  -DSTP_DIR=/tmp/stp-2.3.3-install/lib/cmake/STP/ \
+  ..
+```
+
+To run symbolic execution for ThreadX system calls, navigate to the **KOM-experiment** folder and execute the Python script. Most system calls will complete normally within 5 minutes, except for mutex_delete and mutex_put. These two system calls may take up to 9 hours to finish, depending on the host machine’s performance.
+
+```
+cd KOM-experiment/scripts
+python3 run_test.py
+```
+
+The symbolic execution results will be stored in the *results/output* and *results/test-info-output* folders. To further evaluate the runtime overhead and analyze the modifiable fields, run the following:
+
+```
+python3 run_analysis.py
+```
+
+This command will generate four Excel files in the results folder, containing runtime evaluation data and information on the modifiable fields (M1, M2, and M3), as shown in Tables 2 and 3 in our paper.

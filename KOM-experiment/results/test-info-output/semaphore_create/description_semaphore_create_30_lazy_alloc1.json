@@ -1,0 +1,18 @@
+{
+    "name": "lazy_alloc1",
+    "size": 80,
+    "writable location 0": {
+        "offset_in_mo": 8,
+        "width": 64,
+        "value_controllable": true,
+        "can_value_be_forged_id": false,
+        "constraints": []
+    },
+    "writable location 1": {
+        "offset_in_mo": 16,
+        "width": 64,
+        "value_controllable": true,
+        "can_value_be_forged_id": true,
+        "constraints": []
+    }
+}

@@ -1,0 +1,1 @@
+KLEE: Error: Uninitialized pointer dereferencing!! Found a unresolved constant addresson file threadx/common/src/tx_thread_preemption_change.c: line 197. 
