@@ -1,5 +1,5 @@
-# Use Ubuntu 22.04.1 as the base image
-FROM ubuntu:22.04.1
+# Use Ubuntu 22.04 as the base image
+FROM ubuntu:22.04
 
 # Set non-interactive mode to avoid prompts during installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -9,7 +9,6 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y \
     python3-pip \
     python3-venv \
-    python-venv \
     python3-sphinx \
     python3-sphinx-rtd-theme \
     git \
@@ -26,15 +25,14 @@ RUN apt-get update && apt-get upgrade -y && \
     ca-certificates \
     && apt-get clean
 
-# Install QEMU 8.2.50
-RUN wget https://download.qemu.org/qemu-8.2.50.tar.xz && \
-    tar -xf qemu-8.2.50.tar.xz && \
-    cd qemu-8.2.50 && \
+# Install QEMU 8.2.5 directly from Git
+RUN git clone --branch v8.2.5 https://gitlab.com/qemu-project/qemu.git /qemu && \
+    cd /qemu && \
     ./configure && \
     make -j$(nproc) && \
-    sudo make install && \
+    make install && \
     cd .. && \
-    rm -rf qemu-8.2.50 qemu-8.2.50.tar.xz
+    rm -rf /qemu
 
 # Create the workspace directory
 WORKDIR /workspace
