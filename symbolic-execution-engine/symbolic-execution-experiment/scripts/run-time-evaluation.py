@@ -60,8 +60,8 @@ def extract_info(directory):
     return df
 
 
-directory_path = '/home/klee/klee_src/KOM-experiment/result/output'
+directory_path = '/home/klee/klee_src/symbolic-execution-experiment/results/output'
 dataframe = extract_info(directory_path)
-print(dataframe)
-dataframe.to_excel('/home/klee/klee_src/KOM-experiment/result/symbolic-execution-run-time-evaluation.xlsx', index=False)
 
+dataframe.to_excel('/home/klee/klee_src/symbolic-execution-experiment/results/symbolic-execution-run-time-evaluation.xlsx', index=False)
+print("The runtime result is saved in symbolic-execution-run-time-evaluation.xlsx")

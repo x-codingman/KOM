@@ -290,7 +290,7 @@ def traverse_and_record_json_data(directory):
     return data
 
 
-os.chdir('/home/klee/klee_src/KOM-experiment/results')
+os.chdir('/home/klee/klee_src/symbolic-execution-experiment/results')
 directory = 'test-info-output'
 recorded_data = traverse_and_record_json_data(directory)
 output_file = 'modifiable_location_each_syscall_analysis.xlsx'
