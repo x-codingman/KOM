@@ -1,7 +1,7 @@
 #!/bin/bash
 
-IMAGE=klee/klee:latest
-CONTAINER_NAME=KOM-SE
+IMAGE=my-poc-image:latest
+CONTAINER_NAME=KOM-PoC
 
 RUN_FLAGS="
 -dit \
