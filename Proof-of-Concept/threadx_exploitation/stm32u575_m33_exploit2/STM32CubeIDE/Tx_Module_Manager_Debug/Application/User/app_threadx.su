@@ -1,5 +1,0 @@
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_threadx.c:93:6:tx_application_define	56	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_threadx.c:143:6:MX_ThreadX_Init	8	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_threadx.c:162:6:ModuleManager_Entry	96	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_threadx.c:288:6:module_fault_handler	16	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_threadx.c:294:6:pretty_msg	16	static

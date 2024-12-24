@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE=my-poc-image:latest
+IMAGE=poc-image:latest
 CONTAINER_NAME=KOM-PoC
 
 RUN_FLAGS="

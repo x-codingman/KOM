@@ -11,6 +11,7 @@ RUN apt-get update && apt-get upgrade -y && \
     python3-venv \
     python3-sphinx \
     python3-sphinx-rtd-theme \
+    python3-tomli \
     git \
     libglib2.0-dev \
     libfdt-dev \
@@ -18,6 +19,8 @@ RUN apt-get update && apt-get upgrade -y && \
     zlib1g-dev \
     ninja-build \
     build-essential \
+    gdb-multiarch \
+    expect \
     flex \
     bison \
     wget \
@@ -25,8 +28,8 @@ RUN apt-get update && apt-get upgrade -y && \
     ca-certificates \
     && apt-get clean
 
-# Install QEMU 8.2.5 directly from Git
-RUN git clone --branch v8.2.5 https://gitlab.com/qemu-project/qemu.git /qemu && \
+# Install QEMU directly from Git
+RUN git clone https://gitlab.com/qemu-project/qemu.git /qemu && \
     cd /qemu && \
     ./configure && \
     make -j$(nproc) && \

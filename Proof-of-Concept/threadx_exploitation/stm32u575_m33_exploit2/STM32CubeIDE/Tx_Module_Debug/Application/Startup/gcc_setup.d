@@ -1,1 +1,0 @@
-Application/Startup/gcc_setup.o: ../Application/Startup/gcc_setup.s
