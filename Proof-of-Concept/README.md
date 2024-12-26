@@ -2,6 +2,7 @@
 
 We provide the experimental material for the Proof of Concept experiments. It is recommended to build the engine using Docker for easier setup and environment management. 
 
+#### Building With Docker
 ```
 docker build -t poc-image .
 ```
@@ -14,6 +15,7 @@ To launch the container:
 ./run_docker.sh
 ```
 
+#### Using the Pre-Built Docker Image
 In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](TODO) Execute the following command to use it:
 
 ```

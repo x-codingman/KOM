@@ -1,5 +1,6 @@
 We provide the source code for the symbolic execution engine. It is recommended to build the engine using Docker for easier setup and environment management. Please note that the Docker container will consume approximately 30GB of memory to store the experiment results.
 
+#### Building With Docker
 ```
 docker build -t klee/klee .
 ```
@@ -12,6 +13,7 @@ To launch the container:
 ./run_docker.sh
 ```
 
+#### Using the Pre-Built Docker Image
 In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](TODO) Execute the following command to use it:
 
 ```
