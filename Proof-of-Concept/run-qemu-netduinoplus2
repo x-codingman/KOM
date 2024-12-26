@@ -23,7 +23,7 @@ STM32F405_PATHS=(
 DEVICE2=netduinoplus2
 DEVICE2_DIR=$(pwd)/$DEVICE2
 
-echo "Enter ./run_gdb.sh $PATH_PREFIX $DEVICE2 in another terminal"
+echo -e "Enter \033[1;34m./run_gdb.sh $PATH_PREFIX $DEVICE2\033[0m in another terminal"
 qemu-system-arm -M $DEVICE2 -serial file:output.txt -cpu cortex-m4 -nographic -kernel ${STM32F405_PATHS[2]} --device loader,file=${STM32F405_PATHS[3]} -s -S 
 wait
 echo -e "\033[1;32mFinished running QEMU on $DEVICE2 with MPU disabled\033[0m"
@@ -32,7 +32,6 @@ read
 
 mkdir -p "$DEVICE2_DIR"  
 echo "Created directory: $DEVICE2_DIR"
-echo -e "\033[1;32mFinished running QEMU on $DEVICE2 with MPU disabled\033[0m"
 cd $DEVICE2_DIR
 for i in 0 2 4 6; do
     kernel="${STM32F405_PATHS[$i]}"
@@ -55,8 +54,8 @@ EOF
         echo -e "\033[1;32mKOM has been successfully launched. You can review the $output, which contains no fault information.\033[0m"
     fi
 
-    echo "Grep Fault_Handler"
-    grep "Fault_Handler" $output 
+    echo "Grep manager_memory_fault_handler"
+    grep "manager_memory_fault_handler" $output 
     echo "Press Enter to continue..."
     read
 done

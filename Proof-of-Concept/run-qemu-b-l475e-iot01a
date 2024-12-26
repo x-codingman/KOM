@@ -23,7 +23,7 @@ STM32L475_PATHS=(
 DEVICE1=b-l475e-iot01a
 DEVICE1_DIR=$(pwd)/$DEVICE1
 
-echo "Enter ./run_gdb.sh $PATH_PREFIX $DEVICE1 in another terminal"
+echo -e "Enter \033[1;34m./run_gdb.sh $PATH_PREFIX $DEVICE1\033[0m in another terminal"
 qemu-system-arm -M $DEVICE1 -serial file:output.txt -cpu cortex-m4 -nographic -kernel ${STM32L475_PATHS[2]} --device loader,file=${STM32L475_PATHS[3]} -s -S 
 wait
 echo -e "\033[1;32mFinished running QEMU on $DEVICE1 with MPU disabled\033[0m"
@@ -32,7 +32,6 @@ read
 
 mkdir -p "$DEVICE1_DIR"  
 echo "Created directory: $DEVICE1_DIR"
-echo -e "\033[1;32mFinished running QEMU on $DEVICE1 with MPU disabled\033[0m"
 cd $DEVICE1_DIR
 for i in 0 2 4 6; do
     kernel="${STM32L475_PATHS[$i]}"
@@ -55,8 +54,8 @@ EOF
         echo -e "\033[1;32mKOM has been successfully launched. You can review the $output, which contains no fault information.\033[0m"
     fi
 
-    echo "Grep Fault_Handler"
-    grep "Fault_Handler" $output 
+    echo "Grep manager_memory_fault_handler"
+    grep "manager_memory_fault_handler" $output 
     echo "Press Enter to continue..."
     read
 done
