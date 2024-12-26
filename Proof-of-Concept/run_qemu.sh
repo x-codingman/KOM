@@ -5,13 +5,14 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-PATH_PREFIX=$1
+PATH_PREFIX=${1:-"/workspace/threadx_exploitation"}
+
 
 OUTPUT_FILES=(
-    "read_before_exploit.txt"
-    "read_after_exploit.txt"
-    "write_before_exploit.txt"
-    "write_after_exploit.txt"
+    "read_before_kom.txt"
+    "read_after_kom.txt"
+    "write_before_kom.txt"
+    "write_after_kom.txt"
 )
 
 STM32F405_PATHS=(
@@ -69,8 +70,9 @@ for i in 0 2 4 6; do
 EOF
 
     echo "Finished running QEMU on $DEVICE1 $output"
+    echo "You can find the fault information with MemManage Handler in file: $DEVICE1/$output"
     echo "Grep Fault_Handler"
-    grep "MemManage_Handler" $output
+    grep "Fault_Handler" $output 
     echo "Press Enter to continue..."
     read
 done
@@ -100,6 +102,7 @@ for i in 0 2 4 6; do
 EOF
 
     echo "Finished running QEMU on $DEVICE2 $output"
+    echo "You can find the fault information with MemManage Handler in file: $DEVICE2/$output"
     echo "Grep Fault_Handler"
     grep "Fault_Handler" $output
     echo "Press Enter to continue..."
@@ -131,6 +134,7 @@ for i in 0 2 4 6; do
 EOF
 
     echo "Finished running QEMU on $DEVICE3 $output"
+    echo "You can find the fault information with MemManage Handler in file: $DEVICE3/$output"
     echo "Grep Fault_Handler"
     grep "Fault_Handler" $output 
     echo "Press Enter to continue..."
