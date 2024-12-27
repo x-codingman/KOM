@@ -55,7 +55,7 @@ docker exec -it KOM-PoC /bin/bash
 ./run_gdb.sh /workspace/threadx_exploitation b-l475e-iot01a
 ```
 
-After running the above commands, you should observe the output showing that the MPU control register (at address `0xe000ed94`) has been modified. We print the value of the register before and after launching the KOM attack. Specifically, the value of the control register changes from `5` to `0`, indicating that the MPU has been successfully disabled.
+After running the above commands, you should observe the output showing that the MPU control register (at address `0xe000ed94`) has been modified. We set a gdb watchpoint to catch the change of the control register during the KOM attack. Specifically, the value of the control register changes from `5` to `0` aftering launching the KOM attack, indicating that the MPU has been successfully disabled.
 
 ```
 (gdb) watch *0xe000ed94
@@ -66,7 +66,7 @@ Continuing.
 Hardware watchpoint 2: *0xe000ed94
 
 Old value = 5
-New value = 0 (SHAO: How to establish a connection between reading a control register and the use of watchpoints in GDB?)
+New value = 0 
 ```
 
 2. **Arbitrary Memory Read**
@@ -91,7 +91,18 @@ To further demonstrate the PoC, we conduct the experiment on a real board. Repro
 
 Additionally, a [YouTube video](https://youtu.be/dr2qib8wsiA) is provided to guide reproducing the experiment step by step. This video has been shared with Microsoft, and they have confirmed the validity of this PoC experiment.
 
+The IDE shown in the video is STM32CubeIDE. You can easily load `stm32u575_m33_read/write_before/after_exploit` projects into the STM32CubeIDE for the reproduction on the real board. 
 
+To load a project,
+1. Click File > Open projects from file systems... at the upper left corner of the STM32CubeIDE
+![open](./image/open.jpg)
+2. Click Directory... and select the STM32CubeDIE folder in the PoC project folder as the import source
+![select](./image/select.jpg)
+3. After clicking Finish, the loaded project can be seen in the left column
+![finish](./image/open.jpg)
+
+To compile a project, right click the project icon in the left column of the STM32CubeIDE > Build project
+![compile](./image/compile.jpg)
 
 
 
