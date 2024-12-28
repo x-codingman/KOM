@@ -4,10 +4,10 @@ We provide the experimental material for the Proof of Concept experiments. It is
 
 #### Building With Docker
 ```
-docker build -t poc-image .
+docker build -t kom-poc-image .
 ```
 
-This will build a docker image `"my-poc-image"` which contains all the necessary materials to reproduce our experiments.
+This will build a docker image `"kom-poc-image"` which contains all the necessary materials to reproduce our experiments.
 
 To launch the container:
 
@@ -16,10 +16,13 @@ To launch the container:
 ```
 
 #### Using the Pre-Built Docker Image
-In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](TODO) Execute the following command to use it:
+In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](https://hub.docker.com/repository/docker/xcodingman/kom-poc-image/general) Execute the following command to use it:
 
 ```
-TODO
+docker rmi kom-poc-image:latest
+docker pull xcodingman/kom-poc-image:latest
+docker tag xcodingman/kom-poc-image kom-poc-image：latest
+./run_docker.sh
 ```
 
 We check if the qemu is installed correctly.
@@ -85,7 +88,7 @@ The results of these runs can be found in the output files (`read_before_kom.txt
 
 This Proof of Concept (PoC) can be reproduced in the same manner as the **Arbitrary Memory Read** experiment. Simply press **Enter** in the terminal and verify the two output files to confirm the results.
 
-### Optional Experiment
+## Optional Experiment
 
 To further demonstrate the PoC, we conduct the experiment on a real board. Reproducers can obtain the **NUCLEO-U575ZI-Q** board from [this Amazon link](https://www.amazon.in/Robotism-NUCLEO-U575ZI-Q-Development-board/dp/B0BD1LTSSD).
 
@@ -95,14 +98,14 @@ The IDE shown in the video is STM32CubeIDE. You can easily load `stm32u575_m33_r
 
 To load a project,
 1. Click File > Open projects from file systems... at the upper left corner of the STM32CubeIDE
-![open](./image/open.jpg)
+![open](./images/open.jpg)
 2. Click Directory... and select the STM32CubeDIE folder in the PoC project folder as the import source
-![select](./image/select.jpg)
+![select](./images/select.jpg)
 3. After clicking Finish, the loaded project can be seen in the left column
-![finish](./image/open.jpg)
+![finish](./images/open.jpg)
 
 To compile a project, right click the project icon in the left column of the STM32CubeIDE > Build project
-![compile](./image/compile.jpg)
+![compile](./images/compile.jpg)
 
 
 

@@ -1,4 +1,0 @@
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_module.c:92:9:default_module_start	56	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_module.c:136:6:MainThread_Entry	88	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_module.c:223:6:Error_Handler	8	static
-/Users/gisakaimoe/STM32CubeIDE/workspace_1.7.0/Tx_MPU/Src/app_module.c:229:6:MaliciousTimerFunction	16	static
