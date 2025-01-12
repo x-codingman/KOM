@@ -2,21 +2,19 @@
 
 This directory contains the data required to reproduce the experiments described in our USENIX 2025 paper: The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks.
 
-For driver source code we used in our experiments, please refer to [this repo](https://github.com/VoodooChild99/perry-drivers).
 
 ## Requirements
 ### Hardware Dependencies
 * **Processor**: We recommend using a machine with two Intel Xeon E5-2620 v2 CPUs (12 cores, 24 threads) to reproduce the experiment. However, comparable hardware may also suffice.
 * **Memory**: At least 64GB of RAM
 * **Storage**: At least 256GB.
-* **Board**: NUCLEO-U575ZI-Q is used as one of the platform in the PoC experiment.
+* **Board**: NUCLEO-U575ZI-Q is used as one of the platform in the PoC experiment (optional).
 ### Software Dependencies
 * **OS**: We used Ubuntu 24.04. Other systems are not tested.
-* **Misc**: git, qemu and Docker
+* **Misc**: Git, QEMU and Docker
 
 ## Preparations
-It is assumed that you have built the experiment platform with Docker as described [here](https://github.com/VoodooChild99/perry?tab=readme-ov-file#build-with-docker).
-All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell). 
+All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell).
 
 ## Directory Layout
 | Directories/Files                                        | Experiment                                                   |
@@ -28,11 +26,9 @@ All experiments should be conducted within the built container (execute `run_doc
 ## Running the Experiments
 Please refer to the `README` files in [symbolic-execution-engine](./symbolic-execution-engine), [Proof-of-Concept](./Proof-of-Concept) for detailed instructions.
 
-Note that the symbolic execution takes ~10 hours. 
-
-## (TODO)Badges
+<!-- ## (TODO)Badges
 <p float="left">
 <img src="./assets/usenixbadges-available.svg" width="15%">
 <img src="./assets/usenixbadges-functional.svg" width="15%">
 <img src="./assets/usenixbadges-reproduced.svg" width="15%">
-</p>
+</p> -->

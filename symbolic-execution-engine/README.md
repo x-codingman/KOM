@@ -45,7 +45,7 @@ make -j
 ```
 
 #### E1. Vulnerable System Call Detection
-To run symbolic execution for ThreadX system calls, navigate to the **symbolic-execution-experiment** folder and execute the Python script. Most system calls will complete normally within 5 minutes, except for mutex_delete and mutex_put. These two system calls may take up to 9 hours to finish, depending on the host machine’s performance.
+To run symbolic execution for ThreadX system calls, navigate to the **symbolic-execution-experiment** folder and execute the Python script. Most system calls will complete normally within 5 minutes, except for mutex_delete and mutex_put. Note that these two system calls may take up to 9 hours to finish, depending on the host machine’s performance.
 
 ```
 cd symbolic-execution-experiment/scripts
