@@ -40,9 +40,9 @@ RUN git clone https://gitlab.com/qemu-project/qemu.git /qemu && \
 # Create the workspace directory
 WORKDIR /workspace
 
-COPY threadx_exploitation /workspace/
+COPY ./threadx_exploitation /workspace/threadx_exploitation
 
-COPY run_gdb.sh run-qemu-b-l475e-iot01a.sh run-qemu-olimex-stm32-h405.sh run-qemu-olimex-stm32-h405.sh /workspace/
+COPY run_gdb.sh run-qemu-b-l475e-iot01a.sh run-qemu-olimex-stm32-h405.sh run-qemu-netduinoplus2.sh /workspace/
 
 # Set the default command to bash
 CMD ["/bin/bash"]

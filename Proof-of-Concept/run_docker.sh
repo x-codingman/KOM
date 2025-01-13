@@ -18,8 +18,11 @@ run_docker() {
 if [[ -n $(docker ps -a --filter name=$CONTAINER_NAME --format "{{.Names}}") ]]; then
     # container exists, check status
     if [[ -n $(docker ps -a --filter name=$CONTAINER_NAME --filter status=running --format "{{.Names}}") ]]; then
-        # running, do nothing
-        :
+        # running, stop and create a new container
+        docker stop $CONTAINER_NAME
+        docker rm $CONTAINER_NAME
+        echo "[*] The container is running, remove it and create a new one"
+        run_docker
     elif [[ -n $(docker ps -a --filter name=$CONTAINER_NAME --filter status=created --format "{{.Names}}") ]]; then
         # created, never running, run it
         docker start $CONTAINER_NAME

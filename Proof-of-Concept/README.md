@@ -16,7 +16,7 @@ To launch the container:
 ```
 
 #### Using the Pre-Built Docker Image
-In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](https://hub.docker.com/repository/docker/xcodingman/kom-poc-image/general) Execute the following command to use it:
+In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](https://hub.docker.com/repository/docker/xcodingman/kom-poc-image/general). Execute the following command to use it:
 
 ```
 docker rmi kom-poc-image:latest
@@ -46,8 +46,9 @@ In this experiment, we will demonstrate the effectiveness of the attack on three
 To start the QEMU simulation, execute the following command:
 
 ```shell
-./run_qemu.sh
+./run-qemu-b-l475e-iot01a.sh
 ```
+For the other two devices, execute ./run-qemu-netduinoplus2.sh and ./run-qemu-olimex-stm32-h405.sh, respectively.
 
 1. **MPU Disabling**
 
@@ -74,7 +75,7 @@ New value = 0
 
 2. **Arbitrary Memory Read**
 
-In the terminal running `run_qemu.sh`, press **Enter** to initiate the test program. The program will be executed twice:
+In the terminal running `run_qemu.sh`, press **Enter** twice to execute the test program twice:
 
 - The first run attempts to read privileged memory from an unprivileged thread **without** the KOM attack.
 - The second run performs the same operation, but **with** the KOM attack.
@@ -86,16 +87,23 @@ The results of these runs can be found in the output files (`read_before_kom.txt
 
 3. **Arbitrary Memory Write**
 
-This Proof of Concept (PoC) can be reproduced in the same manner as the **Arbitrary Memory Read** experiment. Simply press **Enter** in the terminal and verify the two output files to confirm the results.
+This Proof of Concept (PoC) can be reproduced in the same manner as the **Arbitrary Memory Read** experiment. Simply press **Enter** twice in the terminal and verify the two output files to confirm the results.
 
 ## Optional Experiment
+To further demonstrate the PoC, we conduct the experiment on a real board. A [YouTube video](https://youtu.be/dr2qib8wsiA) is provided to guide reproducing the experiment step by step. This video has been shared with Microsoft, and they have confirmed the validity of this PoC experiment. Before referring to the video, reproducers need to obtain the board and build the PoC project.
 
-To further demonstrate the PoC, we conduct the experiment on a real board. Reproducers can obtain the **NUCLEO-U575ZI-Q** board from [this Amazon link](https://www.amazon.in/Robotism-NUCLEO-U575ZI-Q-Development-board/dp/B0BD1LTSSD).
 
-Additionally, a [YouTube video](https://youtu.be/dr2qib8wsiA) is provided to guide reproducing the experiment step by step. This video has been shared with Microsoft, and they have confirmed the validity of this PoC experiment.
+### **Obtain the Board**
+Reproducers can obtain the **NUCLEO-U575ZI-Q** board from [this Amazon link](https://www.amazon.in/Robotism-NUCLEO-U575ZI-Q-Development-board/dp/B0BD1LTSSD).
 
-The IDE shown in the video is STM32CubeIDE. You can easily load `stm32u575_m33_read/write_before/after_exploit` projects into the STM32CubeIDE for the reproduction on the real board. 
-
+### **Build the PoC project**
+Reprodecers have to download [STM32CubeIDE]("https://www.st.com/en/development-tools/stm32cubeide.html") as the IDE for this PoC experimemt. After setting up the IDE, reproducers can load one of the following projects into STM32CubeIDE for the reproduction on the real board:
+```
+./threadx_exploitation/stm32u575_m33_read_before_exploit
+./threadx_exploitation/stm32u575_m33_read_after_exploit 
+./threadx_exploitation/stm32u575_m33_write_before_exploit 
+./threadx_exploitation/stm32u575_m33_write_after_exploit 
+```
 To load a project,
 1. Click File > Open projects from file systems... at the upper left corner of the STM32CubeIDE
 ![open](./images/open.jpg)
@@ -106,6 +114,7 @@ To load a project,
 
 To compile a project, right click the project icon in the left column of the STM32CubeIDE > Build project
 ![compile](./images/compile.jpg)
+
 
 
 
