@@ -13,9 +13,6 @@ This directory contains the data required to reproduce the experiments described
 * **OS**: We used Ubuntu 24.04. Other systems are not tested.
 * **Misc**: Git, QEMU and Docker
 
-## Preparations
-All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell).
-
 ## Directory Layout
 | Directories/Files                                        | Experiment                                                   |
 | :------------------------------------------------------- | :----------------------------------------------------------- |
@@ -24,7 +21,7 @@ All experiments should be conducted within the built container (execute `run_doc
 | [modification-ThreadX.md](./modification-ThreadX.md)     | The modifications we made to the ThreadX source code.        |
 
 ## Running the Experiments
-Please refer to the `README` files in [symbolic-execution-engine](./symbolic-execution-engine), [Proof-of-Concept](./Proof-of-Concept) for detailed instructions.
+Please refer to the `README` files in [symbolic-execution-engine](./symbolic-execution-engine), [Proof-of-Concept](./Proof-of-Concept) for detailed instructions. All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell).
 
 <!-- ## (TODO)Badges
 <p float="left">

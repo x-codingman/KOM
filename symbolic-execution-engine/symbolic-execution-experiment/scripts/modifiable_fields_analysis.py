@@ -348,7 +348,7 @@ for row in sheet.iter_rows(min_row=2, values_only=True):  # The first line is th
 #manager.display_all_calls()
 manager_all.export_to_xlsx('M1_vulnerable_system_calls.xlsx')
 print("The modifibale fields (M1) result is saved in M1_vulnerable_system_calls.xlsx")
-manager.export_to_xlsx('M2_ulnerable_system_calls.xlsx')
+manager.export_to_xlsx('M2_vulnerable_system_calls.xlsx')
 print("The modifibale fields (M2) result is saved in M2_vulnerable_system_calls.xlsx")
 manager_can_be_forged.export_to_xlsx('M3_vulnerable_system_calls.xlsx')
 print("The modifibale fields (M3) result is saved in M3_vulnerable_system_calls.xlsx")

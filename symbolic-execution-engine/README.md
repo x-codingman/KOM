@@ -28,6 +28,7 @@ To build KLEE, run the following commands:
 
 ```
 cd /home/klee/klee_src
+sudo apt-get update
 sudo apt-get install google-perftools libgoogle-perftools-dev
 mkdir build
 cmake \
@@ -44,21 +45,27 @@ cmake \
 make -j
 ```
 
-#### E1. Vulnerable System Call Detection
+#### Perform Symbolic Execution
 To run symbolic execution for ThreadX system calls, navigate to the **symbolic-execution-experiment** folder and execute the Python script. Most system calls will complete normally within 5 minutes, except for mutex_delete and mutex_put. Note that these two system calls may take up to 9 hours to finish, depending on the host machine’s performance.
 
 ```
-cd symbolic-execution-experiment/scripts
+cd ~/klee_src/symbolic-execution-experiment/scripts
 python3 run_test_system_calls.py
 ```
 
 The symbolic execution results will be stored in the *results/output* and *results/test-info-output* folders. 
 
-#### E2. Efficiency
+#### Result Evaluation
 To further evaluate the runtime overhead and analyze the modifiable fields, run the following:
 
 ```
 python3 run_analysis.py
 ```
 
-This command will generate four Excel files in the results folder, containing runtime evaluation data and information on the modifiable fields (M1, M2, and M3), as shown in Tables 2 and 3 in our paper.
+This command will generate four Excel files in the results folder, containing runtime evaluation data (E1) and information on the modifiable fields (M1, M2, and M3), as shown in Tables 2 and 3 in our paper (E2). The files will be named as follows:
+```
+M1_vulnerable_system_calls.xlsx
+M2_vulnerable_system_calls.xlsx
+M3_vlnerable_system_calls.xlsx
+symbolic-execution-run-time-evaluation.xlsx
+```
