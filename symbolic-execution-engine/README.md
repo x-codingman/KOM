@@ -14,13 +14,12 @@ To launch the container:
 ```
 
 #### Using the Pre-Built Docker Image
-In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](TODO) Execute the following command to use it:
+In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](https://hub.docker.com/repository/docker/xcodingman/klee/general). Execute the following command to use it:
 
 ```
-docker rmi perry:latest
-docker pull ray999/perry
-docker tag ray999/perry perry:latest
-cd perry
+docker rmi xcodingman/klee
+docker pull xcodingman/klee:latest
+docker tag xcodingman/klee:latest klee/klee:latest
 ./run_docker.sh
 ```
 
