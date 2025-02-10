@@ -5,7 +5,7 @@ Output/
 
 # commonly used as cmake build directory
 /build
-
+**/.DS_Store
 cscope.*
 *~
 

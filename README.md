@@ -1,6 +1,8 @@
 # KOM Experiments
 
-This repository contains the data required to reproduce the experiments described in our USENIX 2025 paper: The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks.
+This repository contains the data required to reproduce the experiments described in our USENIX 2025 paper: The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks. 
+
+In this repository, we give the intructions to reproduce the experiments of symbolic exeucution and Proof of Concept(PoC) mentioned in the paper. 
 
 ## Requirements
 
