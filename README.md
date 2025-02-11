@@ -1,8 +1,8 @@
 # KOM Experiments
 
-This repository contains the data required to reproduce the experiments described in our USENIX 2025 paper: The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks. 
+This repository is intended for artifact evaluation and contains the necessary data to reproduce the experiments described in our USENIX 2025 paper:  *The Cost of Performance: Breaking ThreadX with Kernel Object Masquerading Attacks* .
 
-In this repository, we give the intructions to reproduce the experiments of symbolic exeucution and Proof of Concept(PoC) mentioned in the paper. 
+In this repository, we provide instructions to reproduce the symbolic execution experiments and Proof of Concept (PoC) mentioned in the paper. To facilitate the evaluation process, we also offer corresponding Docker images, allowing users to set up the experiment environment and perform the related experiments with ease.
 
 ## Requirements
 
@@ -26,7 +26,7 @@ In this repository, we give the intructions to reproduce the experiments of symb
 | [Proof-of-Concept](./Proof-of-Concept)                   | Proof of Concept for KOM attacks as described in Section 6.2 ("Implications of Attacks") and A.2 (Proof of Concept).                              |
 | [modification-ThreadX.md](./modification-ThreadX.md)     | The modifications we made to the ThreadX source code.                                                                                             |
 
-## Running the Experiments
+## Replicating our Experiments
 
 Please refer to the `README` files in [symbolic-execution-engine](./symbolic-execution-engine), [Proof-of-Concept](./Proof-of-Concept) for detailed instructions. All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell). Please note that if you are unable to obtain the image from Docker Hub as described in the README, you can alternatively download the corresponding images from [Zenodo](https://zenodo.org/records/14754680).
 
