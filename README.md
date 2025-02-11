@@ -28,7 +28,7 @@ In this repository, we provide instructions to reproduce the symbolic execution 
 
 ## Replicating our Experiments
 
-Please refer to the `README` files in [symbolic-execution-engine](./symbolic-execution-engine), [Proof-of-Concept](./Proof-of-Concept) for detailed instructions. All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell). Please note that if you are unable to obtain the image from Docker Hub as described in the README, you can alternatively download the corresponding images from [Zenodo](https://zenodo.org/records/14754680).
+Please refer to the `README` files in [symbolic-execution-engine](./symbolic-execution-engine), [Proof-of-Concept](./Proof-of-Concept) for detailed instructions. All experiments should be conducted within the built container (execute `run_docker.sh` to launch a shell). Please note that if you are unable to obtain the image from Docker Hub as described in the README, you can alternatively download the corresponding images from [Zenodo](https://doi.org/10.5281/zenodo.14643155).
 
 <!-- ## (TODO)Badges
 <p float="left">
