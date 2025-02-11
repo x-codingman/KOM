@@ -1,6 +1,9 @@
 We provide the source code for the symbolic execution engine. It is recommended to build the engine using Docker for easier setup and environment management. Please note that the Docker container will consume approximately 30GB of memory to store the experiment results.
 
+## Preparation
+
 #### Building With Docker
+
 ```
 docker build -t klee/klee .
 ```
@@ -14,6 +17,7 @@ To launch the container:
 ```
 
 #### Using the Pre-Built Docker Image
+
 In case you cannot build a image, we provide a [pre-built docker image on Docker Hub](https://hub.docker.com/repository/docker/xcodingman/klee/general). Execute the following command to use it:
 
 ```
@@ -44,7 +48,8 @@ cmake \
 make -j
 ```
 
-#### Perform Symbolic Execution
+## Execution
+
 To run symbolic execution for ThreadX system calls, navigate to the **symbolic-execution-experiment** folder and execute the Python script. Most system calls will complete normally within 5 minutes, except for mutex_delete and mutex_put. Note that these two system calls may take up to 9 hours to finish, depending on the host machine’s performance.
 
 ```
@@ -52,19 +57,34 @@ cd ~/klee_src/symbolic-execution-experiment/scripts
 python3 run_test_system_calls.py
 ```
 
-The symbolic execution results will be stored in the *results/output* and *results/test-info-output* folders. 
+The symbolic execution results will be stored in the *results/output* and *results/test-info-output* folders.
 
-#### Result Evaluation
-To further evaluate the runtime overhead and analyze the modifiable fields, run the following:
+## Conduct Evaluation
+
+#### (E1)Vulnerable System Call Detection
+
+To identify the vulnerable system calls, run the following:
 
 ```
-python3 run_analysis.py
+python3 modifiable_fields_analysis.py
 ```
 
-This command will generate four Excel files in the results folder, containing runtime evaluation data (E1) and information on the modifiable fields (M1, M2, and M3), as shown in Tables 2 and 3 in our paper (E2). The files will be named as follows:
+This command will analyze the results of symbolic execution and generate three Excel files in the [symbolic-execution-experiment/result](https://github.com/x-codingman/KOM-experiments/tree/main/symbolic-execution-engine/symbolic-execution-experiment/results) folder, containing the information on the modifiable fields (M1, M2, and M3), as shown in Tables 2 and 3 in our paper. The files will be named as follows:
+
 ```
 M1_vulnerable_system_calls.xlsx
 M2_vulnerable_system_calls.xlsx
-M3_vlnerable_system_calls.xlsx
+M3_vulnerable_system_calls.xlsx
+```
+
+#### (E2) Efficiency
+
+To evaluate the efficiency of the symbolic execution, run the following:
+
+python3 run-time-evaluation.py
+
+This command will analyze the efficiency of symbolic execution and generate an Excel file in the [symbolic-execution-experiment/result](https://github.com/x-codingman/KOM-experiments/tree/main/symbolic-execution-engine/symbolic-execution-experiment/results) folder, containing the information of the runtime overhead of the symbolic execution process. This file will be named as follows:
+
+```
 symbolic-execution-run-time-evaluation.xlsx
 ```
